@@ -13,7 +13,3 @@ RUN \
   apt-get update && \
   apt-get install -y freetype* && \
   rm -rf /var/lib/apt/lists/* && \
-
-
-# Define default command.
-CMD ["bash"]
